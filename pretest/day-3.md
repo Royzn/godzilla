@@ -173,7 +173,7 @@ ViewModel is use for store and manage ui related data in lifecycle way.
 
 You are developing an Android app for managing tasks. Each task has a title and a description. The app should allow users to add tasks and display the list of tasks in a `RecyclerView`. However, the app crashes when you try to display the list of tasks.
 
-Here’s the failed code:
+This is fixed code. already remove the failed code:
 
 ```kotlin
 class TaskAdapter(private val taskList: List<Task>) : RecyclerView.Adapter<TaskAdapter.TaskViewHolder>() {
